@@ -1,27 +1,26 @@
 # WorkAdventure Map Starter Kit
 
-![map](./map.png)
+![map](./maps/map.png)
 
 This is a starter kit to help you build your own map for [WorkAdventure](https://workadventu.re).
 
 To understand how to use this starter kit, follow the tutorial at [https://workadventu.re/map-building](https://workadventu.re/map-building).
 
 ## Structure
-* *public*: Static files like PDFs or audio files
-* *src*: Scripts files
+* *maps*: Map files
+    * *map.(json/tmj)*: Map file
+    * *map.png*: The map thumbnail displayed on the in-game map information
+* *public*: Static files like PDFs
+* *src*: Source files like scripts or PSDs. 
 * *tilesets*: All tilesets
-* *map.tmj*: Map file
-* *map.png*: The map thumbnail displayed on the in-game map information
 
-If you want to use more than one map file, just add the new map file on root or in a folder.
-
-we recommend using 500x500 images for the map thumbnails.
+If you want to use more than one map file, just add the new map file in the /maps folder.
 
 If you are going to create custom websites to embed in the map, please reference the HTML files in the `input` option in *vite.config.js*.
 
 ## Requirements
 
-Node.js version >=17
+Node.js version >=16
 
 ## Installation
 
@@ -37,7 +36,7 @@ npm run dev
 You can test the optimized map as it will be in production:
 ```sh
 npm run build
-npm run prod
+npm run preview
 ```
 
 ## Licenses
@@ -51,5 +50,5 @@ This project contains multiple licenses as follows:
 ### About third party assets
 
 If you add third party assets in your map, do not forget to:
-1. Credit the author and license with the "tilesetCopyright" property present in the properties of each tilesets in the `map.tmj` file
+1. Credit the author and license with the "tilesetCopyright" property present in the properties of each tilesets in the `map.jtmj` file
 2. Add the license text in LICENSE.assets
