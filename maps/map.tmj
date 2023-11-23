@@ -2612,29 +2612,6 @@
          "tilecount":11210,
          "tileheight":32,
          "tilewidth":32
-        }, 
-        {
-         "columns":31,
-         "firstgid":30898,
-         "image":"..\/..\/andersmacher-tag\/tilesets\/Bahnhof\/dbs\/symbols.png",
-         "imageheight":992,
-         "imagewidth":992,
-         "margin":0,
-         "name":"symbols",
-         "spacing":0,
-         "tilecount":961,
-         "tileheight":32,
-         "tiles":[
-                {
-                 "id":1,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }],
-         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
