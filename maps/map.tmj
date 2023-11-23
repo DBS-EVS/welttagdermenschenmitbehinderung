@@ -2264,7 +2264,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":".\/inklusionadventskalender#special_area\/exit_bahnhof_nord"
+                         "value":".\/Begegnungsplattforminklusion@DB#special_area\/exit_bahnhof_nord"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -2488,7 +2488,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":".\/inklusionadventskalender#special_area\/entry_bahnhof_sued"
+                         "value":".\/Begegnungsplattforminklusion@DB#special_area\/entry_bahnhof_sued"
                         }],
                  "type":"tilelayer",
                  "visible":true,
