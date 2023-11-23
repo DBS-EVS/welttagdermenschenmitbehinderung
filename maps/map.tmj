@@ -2253,7 +2253,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":".\/welttagdermenschenmitbehinderung#special_area\/exit_bahnhof_nord"
+                         "value":".\/map#special_area\/exit_bahnhof_nord"
                         }],
                  "type":"tilelayer",
                  "visible":true,
