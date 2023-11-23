@@ -26,6 +26,21 @@ WA.onInit().then(() => {
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready')
 
+        var startMsg = "Willkommen beim Adventskalender Inklusion@DB!\n\nErkunde unsere durchlaufbaren Adventskalender mit deinem Avatar (du bewegst dich mit den PFEILTASTEN)\n Jeden Tag öffnet sich eine neue Tür, hinter der sich spannende Impulse zum Thema Inklusion verbergen\n";
+        var popUpStart = "popUpStart";
+        var currentPopup = undefined;
+
+    currentPopup =  WA.ui.openPopup(popUpStart, startMsg,[
+            {
+                label: "OK",
+                callback: (popup) => {
+                    popup.close();
+                }
+            }]
+        );     
+
+
+
 
         if (WA.state.currentMap === 'city') {
             listenTour(DB_SCHENKER_HQ)
@@ -35,7 +50,7 @@ WA.onInit().then(() => {
             listenTour(BAHNTOWER)
             listenTour(SILVER_TOWER)
         }
-    
+
         if (WA.state.currentMap === 'station') {
             // for now, we have to disable WebRTC when players on different levels can be on the same 2D position.
             WA.room.onEnterLayer("webrtc").subscribe(() => {
@@ -48,9 +63,9 @@ WA.onInit().then(() => {
             // We are on level0 by default
             hideLevel(1)
             hideLevel(-1)
-    
+
             listenStairs()
-    
+
             // Switch levels
             listenLevel(1)
             listenLevel(0)
