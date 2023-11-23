@@ -35,6 +35,7 @@ WA.onInit().then(() => {
                 label: "OK",
                 callback: (popup) => {
                     popup.close();
+                    currentPopup = undefined;
                 }
             }]
         );     
