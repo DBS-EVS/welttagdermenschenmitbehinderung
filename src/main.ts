@@ -15,7 +15,9 @@ const SILVER_TOWER = 'Silver_Tower'
 let currentLevel = 0
 let playerOnStairs = false
 
-
+var startMsg = "Willkommen beim Adventskalender Inklusion@DB!\n\nErkunde unsere durchlaufbaren Adventskalender mit deinem Avatar (du bewegst dich mit den PFEILTASTEN)\n Jeden Tag öffnet sich eine neue Tür, hinter der sich spannende Impulse zum Thema Inklusion verbergen\n";
+var popUpStart = "popUpStart";
+var currentPopup = undefined;
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
@@ -26,19 +28,17 @@ WA.onInit().then(() => {
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready')
 
-    //     var startMsg = "Willkommen beim Adventskalender Inklusion@DB!\n\nErkunde unsere durchlaufbaren Adventskalender mit deinem Avatar (du bewegst dich mit den PFEILTASTEN)\n Jeden Tag öffnet sich eine neue Tür, hinter der sich spannende Impulse zum Thema Inklusion verbergen\n";
-    //     var popUpStart = "popUpStart";
-    //     var currentPopup = undefined;
+        
 
-    // currentPopup =  WA.ui.openPopup(popUpStart, startMsg,[
-    //         {
-    //             label: "OK",
-    //             callback: (popup) => {
-    //                 popup.close();
-    //                 currentPopup = undefined;
-    //             }
-    //         }]
-    //     );     
+        currentPopup =  WA.ui.openPopup(popUpStart, startMsg,[
+            {
+                label: "OK",
+                callback: (popup) => {
+                    popup.close();
+                    currentPopup = undefined;
+                }
+            }]
+        );     
 
 
 

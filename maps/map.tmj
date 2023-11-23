@@ -2147,7 +2147,7 @@
                  "height":95,
                  "id":73,
                  "name":"exit_bahnhof_sued",
-                 "opacity":1,
+                 "opacity":0,
                  "properties":[
                         {
                          "name":"startLayer",
@@ -2259,7 +2259,7 @@
                  "height":95,
                  "id":76,
                  "name":"entry_bahnhof_sued",
-                 "opacity":1,
+                 "opacity":0,
                  "properties":[
                         {
                          "name":"exitUrl",
@@ -2371,7 +2371,7 @@
                  "height":95,
                  "id":74,
                  "name":"exit_bahnhof_nord",
-                 "opacity":1,
+                 "opacity":0,
                  "properties":[
                         {
                          "name":"startLayer",
@@ -2483,7 +2483,7 @@
                  "height":95,
                  "id":75,
                  "name":"entry_bahnhof_nord",
-                 "opacity":1,
+                 "opacity":0,
                  "properties":[
                         {
                          "name":"exitUrl",
