@@ -17,6 +17,7 @@ let playerOnStairs = false
 
 var startMsg = "Willkommen beim Adventskalender Inklusion@DB!\n\nErkunde unsere durchlaufbaren Adventskalender mit deinem Avatar (du bewegst dich mit den PFEILTASTEN)\n Jeden Tag öffnet sich eine neue Tür, hinter der sich spannende Impulse zum Thema Inklusion verbergen\n";
 var popUpStart = "popUpStart";
+// @ts-ignore
 let currentPopup;
 
 // Waiting for the API to be ready
