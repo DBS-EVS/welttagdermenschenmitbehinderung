@@ -15,7 +15,7 @@ const SILVER_TOWER = 'Silver_Tower'
 let currentLevel = 0
 let playerOnStairs = false
 
-var startMsg = "Willkommen bei der Begegnungsplattform Inklusion@DB!\n\nErkunde unsere durchlaufbaren Adventskalender mit deinem Avatar (du bewegst dich mit den PFEILTASTEN)\n Jeden Tag öffnet sich eine neue Tür, hinter der sich spannende Impulse zum Thema Inklusion verbergen\n";
+var startMsg = "Willkommen bei der Begegnungsplattform Inklusion@DB!\n\nErkunde unseren durchlaufbaren Adventskalender mit deinem Avatar\n(du bewegst dich mit den PFEILTASTEN)\n Jeden Tag öffnet sich eine neue Tür,\nhinter der sich spannende Impulse zum Thema Inklusion verbergen\n";
 var popUpStart = "popUpStart";
 // @ts-ignore
 let currentPopup;
