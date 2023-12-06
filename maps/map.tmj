@@ -1245,6 +1245,33 @@
                  "width":70,
                  "x":3578.33333333333,
                  "y":2376.83333333333
+                }, 
+                {
+                 "height":156,
+                 "id":45,
+                 "name":"startSound",
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"audioVolume",
+                         "type":"string",
+                         "value":"0.8"
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":".\/resources\/Testaufnahme.mp3"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":628,
+                 "x":2365.33333333333,
+                 "y":1890.66666666667
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2675,7 +2702,7 @@
          "y":0
         }],
  "nextlayerid":79,
- "nextobjectid":44,
+ "nextobjectid":46,
  "orientation":"orthogonal",
  "properties":[
         {
