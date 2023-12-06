@@ -1267,7 +1267,7 @@
                          "value":"..\/resources\/Testaufnahme.mp3"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":628,
                  "x":2365.33333333333,
