@@ -1264,7 +1264,7 @@
                         {
                          "name":"playAudio",
                          "type":"string",
-                         "value":"..\/resources\/Testaufnahme.mp3"
+                         "value":"\/Testaufnahme.mp3"
                         }],
                  "rotation":0,
                  "type":"area",
