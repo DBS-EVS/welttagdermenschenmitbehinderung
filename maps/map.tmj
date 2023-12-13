@@ -1264,7 +1264,7 @@
                         {
                          "name":"playAudio",
                          "type":"string",
-                         "value":".\/Testaufnahme.mp3"
+                         "value":"https:\/\/dbs-evs.github.io\/welttagdermenschenmitbehinderung\/Testaufnahme.mp3"
                         }],
                  "rotation":0,
                  "type":"area",
