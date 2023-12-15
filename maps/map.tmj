@@ -1750,7 +1750,7 @@
                         {
                          "name":"openWebsiteWidth",
                          "type":"string",
-                         "value":"40"
+                         "value":"60"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1839,6 +1839,168 @@
                  "width":175.666,
                  "x":2082.83366666667,
                  "y":1358.83316666667
+                }, 
+                {
+                 "height":159.667,
+                 "id":69,
+                 "name":"umgebungsplan_stra\u00dfe",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/dbs-evs.github.io\/welttagdermenschenmitbehinderung\/umgebungsplan_stra\u00dfe_klein.png"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"60"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":175.666,
+                 "x":2910.83366666667,
+                 "y":1972.1665
+                }, 
+                {
+                 "height":159.667,
+                 "id":70,
+                 "name":"umgebungsplan_silberturm",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/dbs-evs.github.io\/welttagdermenschenmitbehinderung\/umgebungsplan_silberturm_klein.png"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"60"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":175.666,
+                 "x":1833.50033333333,
+                 "y":2509.49983333333
+                }, 
+                {
+                 "height":159.667,
+                 "id":71,
+                 "name":"umgebungsplan_ice",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/dbs-evs.github.io\/welttagdermenschenmitbehinderung\/umgebungsplan_silberturm_ice.png"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"60"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":175.666,
+                 "x":754.833666666667,
+                 "y":1213.49983333333
+                }, 
+                {
+                 "height":159.667,
+                 "id":72,
+                 "name":"umgebungsplan_norden",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/dbs-evs.github.io\/welttagdermenschenmitbehinderung\/umgebungsplanf_norden_klein.png"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"60"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":175.666,
+                 "x":2466.83366666667,
+                 "y":269.499833333334
+                }, 
+                {
+                 "height":159.667,
+                 "id":73,
+                 "name":"umgebungsplan_bahnhof",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/dbs-evs.github.io\/welttagdermenschenmitbehinderung\/umgebungsplan_bahnhof_klein.png"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"60"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":175.666,
+                 "x":2909.50033333333,
+                 "y":1336.1665
+                }, 
+                {
+                 "height":159.667,
+                 "id":74,
+                 "name":"umgebungsplan_schenker",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/dbs-evs.github.io\/welttagdermenschenmitbehinderung\/umgebungsplan_schenker_klein.png"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"60"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":175.666,
+                 "x":1512.167,
+                 "y":666.833166666667
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3269,7 +3431,7 @@
          "y":0
         }],
  "nextlayerid":79,
- "nextobjectid":69,
+ "nextobjectid":75,
  "orientation":"orthogonal",
  "properties":[
         {
