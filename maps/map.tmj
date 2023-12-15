@@ -1677,6 +1677,87 @@
                  "width":175.666,
                  "x":2377.50033333333,
                  "y":2306.83316666667
+                }, 
+                {
+                 "height":159.667,
+                 "id":63,
+                 "name":"t\u00fcrSound",
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"audioVolume",
+                         "type":"string",
+                         "value":"0.8"
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":"https:\/\/dbs-evs.github.io\/welttagdermenschenmitbehinderung\/Intro_Kalendertuerchen.mp3"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":175.666,
+                 "x":2984.167,
+                 "y":2629.49983333333
+                }, 
+                {
+                 "height":159.667,
+                 "id":64,
+                 "name":"t\u00fcrSound",
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"audioVolume",
+                         "type":"string",
+                         "value":"0.8"
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":"https:\/\/dbs-evs.github.io\/welttagdermenschenmitbehinderung\/Intro_Kalendertuerchen.mp3"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":175.666,
+                 "x":1153.50033333333,
+                 "y":1973.49983333333
+                }, 
+                {
+                 "height":159.667,
+                 "id":65,
+                 "name":"umgebungsplan_baum",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/dbs-evs.github.io\/welttagdermenschenmitbehinderung\/umgebungsplan_baum.png"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"string",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"string",
+                         "value":"40"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":175.666,
+                 "x":3265.50033333333,
+                 "y":2613.49983333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3107,7 +3188,7 @@
          "y":0
         }],
  "nextlayerid":79,
- "nextobjectid":63,
+ "nextobjectid":66,
  "orientation":"orthogonal",
  "properties":[
         {
