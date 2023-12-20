@@ -1902,7 +1902,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/dbs-evs.github.io\/welttagdermenschenmitbehinderung\/umgebungsplan_silberturm_ice.png"
+                         "value":"https:\/\/dbs-evs.github.io\/welttagdermenschenmitbehinderung\/umgebungsplan_ice_klein.png"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -1929,7 +1929,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/dbs-evs.github.io\/welttagdermenschenmitbehinderung\/umgebungsplanf_norden_klein.png"
+                         "value":"https:\/\/dbs-evs.github.io\/welttagdermenschenmitbehinderung\/umgebungsplan_norden_klein.png"
                         }, 
                         {
                          "name":"openWebsiteClosable",
