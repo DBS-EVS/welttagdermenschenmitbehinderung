@@ -1750,7 +1750,7 @@
                         {
                          "name":"openWebsiteWidth",
                          "type":"string",
-                         "value":"60"
+                         "value":"75"
                         }],
                  "rotation":0,
                  "type":"area",
